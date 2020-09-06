@@ -1,0 +1,9 @@
+[Unit]
+Description=Manage System Fan
+
+[Service]
+ExecStart=/usr/local/sbin/rpi-fan 18 50 100
+
+[Install]
+WantedBy=multi-user.target
+
